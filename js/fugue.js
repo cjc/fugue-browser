@@ -9,7 +9,7 @@ LITTLEROOM.fff = {
         if (query !== LITTLEROOM.fff.lastSearch) {
             LITTLEROOM.fff.lastSearch = query;
             LITTLEROOM.fff.hc.set('search', string);
-            for (var i = 0; i < 1638; i += 1) {
+            for (var i = 0; i < 2540; i += 1) {
                 LITTLEROOM.fff.elements[i].className = !string || regexp.test(LITTLEROOM.fff.names[i]) ? (count += 1) % 2 ? 'odd' : 'even' : 'hidden';
             }
             $('count').setText(count);
